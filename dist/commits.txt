@@ -1,0 +1,23 @@
+2026-10-06 02:25:09 +0900
+v1.12.18
+
+2026-10-06 02:21:23 +0900
+v1.12.17
+
+2026-10-06 02:13:41 +0900
+v1.12.16
+
+2026-10-06 02:09:19 +0900
+test
+
+2026-10-06 01:09:44 +0900
+v1.12.15
+
+2026-10-06 01:09:18 +0900
+refactor: make minor UI adjustments to the log
+
+2026-10-06 01:05:39 +0900
+fix: use matching language code for available language notification when locale does not match exactly
+
+2026-09-28 23:16:54 +0900
+v1.12.14

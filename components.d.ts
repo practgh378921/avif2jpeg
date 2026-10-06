@@ -8,8 +8,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    BasilPauseSolid: typeof import('~icons/basil/pause-solid')['default']
-    BxDownArrow: typeof import('~icons/bx/down-arrow')['default']
     CanvasThumbnail: typeof import('./src/components/canvas-thumbnail.vue')['default']
     Changelog: typeof import('./src/components/header/changelog.vue')['default']
     Converter: typeof import('./src/components/converter/converter.vue')['default']
@@ -30,7 +28,6 @@ declare module 'vue' {
     ImageViewer: typeof import('./src/components/converter/status/image-viewer.vue')['default']
     LangFlag: typeof import('./src/components/lang-flag.vue')['default']
     Licenses: typeof import('./src/components/header/licenses.vue')['default']
-    MaterialSymbolsAutorenew: typeof import('~icons/material-symbols/autorenew')['default']
     MaterialSymbolsCloseRounded: typeof import('~icons/material-symbols/close-rounded')['default']
     MaterialSymbolsExperimentOutline: typeof import('~icons/material-symbols/experiment-outline')['default']
     MaterialSymbolsFolderOutline: typeof import('~icons/material-symbols/folder-outline')['default']
@@ -53,9 +50,7 @@ declare module 'vue' {
     NEllipsis: typeof import('naive-ui')['NEllipsis']
     NEmpty: typeof import('naive-ui')['NEmpty']
     NFlex: typeof import('naive-ui')['NFlex']
-    NFloatButton: typeof import('naive-ui')['NFloatButton']
     NIcon: typeof import('naive-ui')['NIcon']
-    'NIcon<IcBaselineFlashAuto': typeof import('naive-ui')['NIcon<IcBaselineFlashAuto']
     NImage: typeof import('naive-ui')['NImage']
     NImageGroup: typeof import('naive-ui')['NImageGroup']
     NInput: typeof import('naive-ui')['NInput']

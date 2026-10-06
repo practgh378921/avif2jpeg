@@ -116,8 +116,8 @@ registerRoute(
 
     // Use manual cache if not found in precache
     console.log('manual caching');
-    //return defaultStrategy.handle({event, request});
-    return netFirstStrategy.handle({event, request});
+    return defaultStrategy.handle({event, request});
+    //return netFirstStrategy.handle({event, request});
   }
 );
 

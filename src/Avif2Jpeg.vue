@@ -76,7 +76,7 @@ const firstPageView = ref(true);
 const outputDirHandle = ref<FileSystemDirectoryHandle | null>(null);
 
 // @ts-ignore
-window.xx = 2;
+window.xx = 3;
 
 // for SSG
 if( import.meta.env.SSR ) {
